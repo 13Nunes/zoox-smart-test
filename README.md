@@ -1,1 +1,84 @@
-zoox-smart-test
+## Zoox Smart Avaliação Desenvolvedor
+
+- API Node JS;
+- Banco de dados MongoDB;
+- Entrada e saída da API no formato JSON;
+- Repositório no GitHub público;
+- API com 2 Resources (Estados e Cidades);
+- Tela de consulta com Angular ou Vue.
+
+##### Observações pessoais
+:tw-1f52c:  Fazia algum tempo que não trabalhava com MongoDB, pois atualmente estou estudando AWS DynamoDB, mas foi divertido relembrar.
+
+### API Node JS
+-------------
+- Utilização do frameword express;
+- Validação de entradas usando o módulo celebrate (JOI/Hapi);
+- Módulo Cors para controle de Cross-Origin;
+- Otimização da segurança utilizando o módulo helmet para headers;
+- Otimização da segurança utilizando o módulo rate-limiter-flexible para combate a brutal force e DDoS;
+- Drive para manuseio do banco mongoose;
+- Documentação com os módulos swagger-jsdoc e swagger-ui-express. Para visualizar a documentação basta acessar a rota raiz da api;
+- Token JWT gerado utilizando módulo jsonwebtoken;
+- Manuseio do Timezone com o módulo moment-timezone.
+
+##### Observações pessoais
+:tw-1f60e: Preferi utilizar JWT para autorização da API, pois vejo essa solução mais frequentemente do que X-API-KEY. Além disso, o token é gerado a partir da autenticação evitando a necessidade de implementar um sistema para gerenciar chaves de acesso.
+Para obter um token basta fazer login passando um email válido e qualquer valor para a senha (Fake login).
+
+:tw-1f559: Eu preferi manter o banco com o timezone UTC e ajustar a data ao timezone do usuário durante a execução da API. Considero que é sempre importante manter o dado limpo.
+
+:tw-1f62d: Eu só tive o domingo para realizar o teste e por isso não tive tempo de instralar o JEST e fazer os testes automatizados. Mas, deixo aqui um [artigo](https://medium.com/javascript-in-plain-english/how-i-setup-unit-test-for-mongodb-using-jest-mongoose-103b772ee164 "artigo") que eu separei para utilização (caso desse tempo).  Ele é interessante, pois utiliza uma instância do MongoDB em memória para não sujar a base durantes os testes.
+
+##### Project setup
+```
+yarn install
+```
+
+##### Compiles and hot-reloads for development
+```
+yarn start
+```
+
+### Tela de consulta (Front-end Vue JS)
+-------------
+- Utilização do framework Vue [Quasar](https://quasar.dev/ "Quasar");
+- Escolhi o Quasar, pois ele trabalha com Material Design (assim como o Vuetify), porém ele é mais completo e mais flexível. Além disso ele tem um ótimo suporte para Vuex que foi utilizado no projeto;
+- O projeto tem i18n (multi-idioma) implementado utilizando Quasar;
+- Qualquer login e senha acessa o painel, mas isso porque a API foi escrita assim. Esse projeto pode ser facilmente adaptado para produção;
+- Não utilizei um DataGrid server side, pois o Quasar me oferece um Datagrid com suporte a busca, paginação e ordenação. Mas, naturalmente para grandes volumes de dados bastaria trocar o componente. A API tem suporte a ordenação e busca de qualquer forma.
+
+##### Observações pessoais
+:tw-1f605: Espero que reparem que toda vez que você entra no login uma nova imagem de fundo com o tema "segurança" é gerada. Para a página de esqueci minha senha uma imagem com o tema "paz" é gerada (imagino que a pessoa deve estar nervosa por perder a senha).
+
+:tw-1f4aa: Apesar de utilizar um frameword esse projeto está altamente customizado.
+
+##### Project setup
+```
+yarn install
+```
+
+##### Compiles and hot-reloads for development
+```
+yarn start
+```
+
+### Considerações finais
+-------------
+Acredito que todos os requisitos foram atendidos e extras interessantes foram apresentados.
+
+| Requisito    | Completou  |
+| :------------ |:-------------:|
+| Node JS      | :tw-1f44d:   |
+| MongoDB   | :tw-1f44d:   |
+| JSON           | :tw-1f44d:   |
+| GitHub        | :tw-1f44d:   |
+| UTF-8          | :tw-1f44d:   |
+| Timezone    | :tw-1f44d:   |
+
+| Extra            | Completou  |
+| :------------ |:-------------:|
+| Documentação  | :tw-1f44d:   |
+| Proteção            | :tw-1f44d:   |
+| Testes                |   |
+| Cache                |    |
