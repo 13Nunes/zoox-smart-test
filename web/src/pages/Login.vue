@@ -56,8 +56,8 @@ export default {
   name: 'Login',
   data: () => ({
     form: {
-      email: '',
-      password: ''
+      email: 'test@zooxsmart.com',
+      password: 'test'
     },
     form1: {
       retypePassword: '',
