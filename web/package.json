@@ -8,7 +8,7 @@
   "author": "Fernando Nunes <onlyfernando@gmail.com>",
   "private": true,
   "scripts": {
-    "start": "quasar dev",
+    "start": "npx quasar dev",
     "lint": "eslint --ext .js,.vue src",
     "test": "echo \"No test specified\" && exit 0",
     "build": "quasar build -m pwa"
