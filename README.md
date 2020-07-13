@@ -19,6 +19,7 @@
 - Otimização da segurança utilizando o módulo rate-limiter-flexible para combate a brutal force e DDoS;
 - Drive para manuseio do banco mongoose;
 - Documentação com os módulos swagger-jsdoc e swagger-ui-express. Para visualizar a documentação basta acessar a rota raiz da api;
+- Caso não goste de testar a documentação pelo Swagger esteja livre para [importar o modelo do Insomnia](https://raw.githubusercontent.com/13Nunes/zoox-smart-test/master/Insomnia_zoox_smart_test.json) na raiz desse projeto;
 - Token JWT gerado utilizando módulo jsonwebtoken;
 - Manuseio do Timezone com o módulo moment-timezone.
 
