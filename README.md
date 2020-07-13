@@ -66,7 +66,7 @@ yarn install
 ```
 
 ##### Compiles and hot-reloads for development
-Caso o comando abaixo apresente algum problema instale o Quasar globalmente atravepés do comando `$ yarn global add @quasar/cli`.
+Caso o comando abaixo apresente algum problema instale o Quasar globalmente através do comando `$ yarn global add @quasar/cli`.
 ```
 yarn start
 ```
