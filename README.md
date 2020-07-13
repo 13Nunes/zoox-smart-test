@@ -32,6 +32,9 @@ Para obter um token basta fazer login passando um email válido e qualquer valor
 
 ##### Project setup
 ```
+cd .\server
+```
+```
 yarn install
 ```
 
@@ -54,6 +57,9 @@ yarn start
 :muscle: Apesar de utilizar um frameword esse projeto está altamente customizado.
 
 ##### Project setup
+```
+cd .\web
+```
 ```
 yarn install
 ```
