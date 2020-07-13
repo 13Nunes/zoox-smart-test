@@ -12,7 +12,7 @@ class CityController{
     sort = (sort === 'asc' || sort === 'desc') ? sort : 'asc';
 
     try{
-      // Create state
+      // Find city
       CityModel.find(filter).sort({title: sort}).populate('state')
         .then((cities) => {
           // Apply timezone
@@ -80,7 +80,7 @@ class CityController{
     const { title, stateId } = request.body;
 
     try{
-      // Create state
+      // Create city
       const city = await CityModel.create({ title, state: stateId });
 
       // Output
@@ -103,7 +103,7 @@ class CityController{
     const { title, stateId } = request.body;
 
     try{
-      // Create state
+      // Edit city
       const city = await CityModel.findByIdAndUpdate(cityId, { 
         title, 
         state: stateId,
@@ -127,7 +127,7 @@ class CityController{
     const { cityId } = request.params;
 
     try{
-      // Create state
+      // Remove city
       const city = await CityModel.findByIdAndDelete(cityId);
 
       // Output

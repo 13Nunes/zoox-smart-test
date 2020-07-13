@@ -47,7 +47,7 @@ class StateController{
     const { stateId } = request.params;
 
     try{
-      // Find city
+      // Find state
       StateModel.findById(stateId)
         .then((state) => {
           // Apply timezone
@@ -103,7 +103,7 @@ class StateController{
     const { title, code } = request.body;
 
     try{
-      // Create state
+      // Edit state
       const state = await StateModel.findByIdAndUpdate(stateId, { 
         title, 
         code, 
@@ -127,7 +127,7 @@ class StateController{
     const { stateId } = request.params;
 
     try{
-      // Create state
+      // Remove state
       const state = await StateModel.findByIdAndDelete(stateId);
 
       // Output
