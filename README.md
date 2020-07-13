@@ -8,7 +8,7 @@
 - Tela de consulta com Angular ou Vue.
 
 ##### Observações pessoais
-:tw-1f52c:  Fazia algum tempo que não trabalhava com MongoDB, pois atualmente estou estudando AWS DynamoDB, mas foi divertido relembrar.
+:microscope:  Fazia algum tempo que não trabalhava com MongoDB, pois atualmente estou estudando AWS DynamoDB, mas foi divertido relembrar.
 
 ### API Node JS
 -------------
@@ -23,12 +23,12 @@
 - Manuseio do Timezone com o módulo moment-timezone.
 
 ##### Observações pessoais
-:tw-1f60e: Preferi utilizar JWT para autorização da API, pois vejo essa solução mais frequentemente do que X-API-KEY. Além disso, o token é gerado a partir da autenticação evitando a necessidade de implementar um sistema para gerenciar chaves de acesso.
+:sunglasses: Preferi utilizar JWT para autorização da API, pois vejo essa solução mais frequentemente do que X-API-KEY. Além disso, o token é gerado a partir da autenticação evitando a necessidade de implementar um sistema para gerenciar chaves de acesso.
 Para obter um token basta fazer login passando um email válido e qualquer valor para a senha (Fake login).
 
-:tw-1f559: Eu preferi manter o banco com o timezone UTC e ajustar a data ao timezone do usuário durante a execução da API. Considero que é sempre importante manter o dado limpo.
+:clock830: Eu preferi manter o banco com o timezone UTC e ajustar a data ao timezone do usuário durante a execução da API. Considero que é sempre importante manter o dado limpo.
 
-:tw-1f62d: Eu só tive o domingo para realizar o teste e por isso não tive tempo de instralar o JEST e fazer os testes automatizados. Mas, deixo aqui um [artigo](https://medium.com/javascript-in-plain-english/how-i-setup-unit-test-for-mongodb-using-jest-mongoose-103b772ee164 "artigo") que eu separei para utilização (caso desse tempo).  Ele é interessante, pois utiliza uma instância do MongoDB em memória para não sujar a base durantes os testes.
+:sob: Eu só tive o domingo para realizar o teste e por isso não tive tempo de instralar o JEST e fazer os testes automatizados. Mas, deixo aqui um [artigo](https://medium.com/javascript-in-plain-english/how-i-setup-unit-test-for-mongodb-using-jest-mongoose-103b772ee164 "artigo") que eu separei para utilização (caso desse tempo).  Ele é interessante, pois utiliza uma instância do MongoDB em memória para não sujar a base durantes os testes.
 
 ##### Project setup
 ```
@@ -49,9 +49,9 @@ yarn start
 - Não utilizei um DataGrid server side, pois o Quasar me oferece um Datagrid com suporte a busca, paginação e ordenação. Mas, naturalmente para grandes volumes de dados bastaria trocar o componente. A API tem suporte a ordenação e busca de qualquer forma.
 
 ##### Observações pessoais
-:tw-1f605: Espero que reparem que toda vez que você entra no login uma nova imagem de fundo com o tema "segurança" é gerada. Para a página de esqueci minha senha uma imagem com o tema "paz" é gerada (imagino que a pessoa deve estar nervosa por perder a senha).
+:sweat_smile: Espero que reparem que toda vez que você entra no login uma nova imagem de fundo com o tema "segurança" é gerada. Para a página de esqueci minha senha uma imagem com o tema "paz" é gerada (imagino que a pessoa deve estar nervosa por perder a senha).
 
-:tw-1f4aa: Apesar de utilizar um frameword esse projeto está altamente customizado.
+:muscle: Apesar de utilizar um frameword esse projeto está altamente customizado.
 
 ##### Project setup
 ```
@@ -69,16 +69,16 @@ Acredito que todos os requisitos foram atendidos e extras interessantes foram ap
 
 | Requisito    | Completou  |
 | :------------ |:-------------:|
-| Node JS      | :tw-1f44d:   |
-| MongoDB   | :tw-1f44d:   |
-| JSON           | :tw-1f44d:   |
-| GitHub        | :tw-1f44d:   |
-| UTF-8          | :tw-1f44d:   |
-| Timezone    | :tw-1f44d:   |
+| Node JS      | :thumbsup:   |
+| MongoDB   | :thumbsup:   |
+| JSON           | :thumbsup:   |
+| GitHub        | :thumbsup:   |
+| UTF-8          | :thumbsup:   |
+| Timezone    | :thumbsup:   |
 
 | Extra            | Completou  |
 | :------------ |:-------------:|
-| Documentação  | :tw-1f44d:   |
-| Proteção            | :tw-1f44d:   |
+| Documentação  | :thumbsup:   |
+| Proteção            | :thumbsup:   |
 | Testes                |   |
 | Cache                |    |
