@@ -29,7 +29,7 @@ Para obter um token basta fazer login passando um email válido e qualquer valor
 
 :clock830: Eu preferi manter o banco com o timezone UTC e ajustar a data ao timezone do usuário durante a execução da API. Considero que é sempre importante manter o dado limpo.
 
-:sob: Eu só tive o domingo para realizar o teste e por isso não tive tempo de instralar o JEST e fazer os testes automatizados. Mas, deixo aqui um [artigo](https://medium.com/javascript-in-plain-english/how-i-setup-unit-test-for-mongodb-using-jest-mongoose-103b772ee164 "artigo") que eu separei para utilização (caso desse tempo).  Ele é interessante, pois utiliza uma instância do MongoDB em memória para não sujar a base durantes os testes.
+:sob: Eu só tive o domingo para realizar o teste e por isso não tive tempo de instalar o JEST e fazer os testes automatizados. Mas, deixo aqui um [artigo](https://medium.com/javascript-in-plain-english/how-i-setup-unit-test-for-mongodb-using-jest-mongoose-103b772ee164 "artigo") que eu separei para utilização (caso desse tempo).  Ele é interessante, pois utiliza uma instância do MongoDB em memória para não sujar a base durantes os testes.
 
 ##### Project setup
 ```
