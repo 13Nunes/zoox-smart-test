@@ -55,7 +55,7 @@ yarn start
 ##### Observações pessoais
 :sweat_smile: Espero que reparem que toda vez que você entra no login uma nova imagem de fundo com o tema "segurança" é gerada. Para a página de esqueci minha senha uma imagem com o tema "paz" é gerada (imagino que a pessoa deve estar nervosa por perder a senha).
 
-:muscle: Apesar de utilizar um frameword esse projeto está altamente customizado.
+:muscle: Apesar de utilizar um framework esse projeto está altamente customizado.
 
 ##### Project setup
 ```
