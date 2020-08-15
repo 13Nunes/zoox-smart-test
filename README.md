@@ -12,7 +12,7 @@
 
 ### API Node JS
 -------------
-- Utilização do frameword express;
+- Utilização do framework express;
 - Validação de entradas usando o módulo celebrate (JOI/Hapi);
 - Módulo Cors para controle de Cross-Origin;
 - Otimização da segurança utilizando o módulo helmet para headers;
